@@ -271,7 +271,7 @@ def parse_args():
     )
     parser.add_argument("--N-list", "--n-list", type=int, nargs="+", default=[25,50,100])
     parser.add_argument("--p", type=int, default=11)
-    parser.add_argument("--reps", type=int, default=10)
+    parser.add_argument("--reps", type=int, default=100)
     parser.add_argument("--N-test", "--n-test", type=int, default=1000)
     parser.add_argument("--n-obs", type=int, default=100)
     parser.add_argument("--m-fit", type=int, default=120)
