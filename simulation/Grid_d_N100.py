@@ -981,7 +981,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Compare mixed-predictor methods under fig3-style vector-covariate data."
     )
-    parser.add_argument("--p-list", type=int, nargs="+", default=[2, 6, 11],
+    parser.add_argument("--p-list", type=int, nargs="+", default=[2, 11],
                         help="Total predictor counts p. There is 1 distribution predictor and p-1 scalars.")
     parser.add_argument("--reps", type=int, default=100)
     parser.add_argument("--n-train", type=int, default=100)
