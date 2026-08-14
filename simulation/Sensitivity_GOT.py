@@ -124,11 +124,7 @@ def _load_module_from_candidates(module_name: str, filenames: Sequence[str]):
 
 base = _load_module_from_candidates(
     "mixed_methods_fixed_alpha_base",
-    (
-        "compare_mixed_methods_p_grid_no_flags_fig4_v2_fixed_alpha_seed_50_parallel.py",
-        "compare_mixed_methods_p_grid_no_flags_fig4_v2_fixed_alpha_seed.py",
-        "compare_mixed_methods_p_grid_no_flags_fig4_v2_fixed_alpha_seed(1).py",
-    ),
+    ("got_experiment.py",),
 )
 
 # The original comparison module already loads Structured_transport_map_core.py.  Reuse that exact
